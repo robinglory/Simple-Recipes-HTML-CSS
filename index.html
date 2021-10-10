@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Recipes || Starter</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+   <!---  Navbar  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!--  Header  -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="logo.svg" alt="logo">
+          </a>
+          <button class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <!--- Links -->
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="recipes.html" class="nav-link">Recipes</a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+    <!----End of Navbar-->
+
+    <!----  Main-->
+    <main class="page">
+      <!---Header-->
+      <header class="slideshow">
+        <div class="slideshow-container">
+          <div class="slideshow-text">
+            <h1>Simply recipes</h1>
+            <h4>no fluff, just recipes</h4>
+          </div>
+        </div>
+      </header>
+
+      <!--- End of Header-->
+
+      <!----Recipes Container-->
+      <section class="recipes-container">
+        <!---Tags Container-->
+        <div class="tags-container">
+          <h3>Recipes</h3>
+          <div class="tags-list">
+            <a href="tag-template.html#beef">Beef (2)</a>
+            <a href="tag-template.html#vegetables ">Vegetables (2) </a>
+            <a href="tag-template.html#drinks">Drinks (2)</a>
+            <a href="tag-template.html#alcohol">Alcohol (1)</a>
+          </div>
+        </div>
+        <!---end of Tags Container-->
+
+        <!---Recipes lists-->
+        <div class="recipes-list">
+          <!---Single Recipes-->
+          <a href="single-recipe.html" class="recipe">
+            <img src="recipe-1.jpeg" alt="food" class="img recipe-img">
+            <h5>carne asada</h5>
+            <p>Prep : 15min | Cook  : 15min </p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img src="recipe-2.jpeg" alt="food" class="img recipe-img">
+            <h5>carne asada</h5>
+            <p>Prep : 15min | Cook  : 15min  </p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img src="recipe-3.jpeg" alt="food" class="img recipe-img">
+            <h5>carne asada</h5>
+            <p>Prep : 15min | Cook  : 15min  </p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img src="recipe-4.jpeg" alt="food" class="img recipe-img">
+            <h5>carne asada</h5>
+            <p>Prep : 15min | Cook  : 15min  </p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img src="drinks-1.jpg" alt="food" class="img recipe-img">
+            <h5>Suspendisse</h5>
+            <p>Prep : 15min | Cook  : 15min  </p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img src="drinks-2.jpeg" alt="food" class="img recipe-img">
+            <h5>carne asada</h5>
+            <p>Prep : 15min | Cook  : 15min  </p>
+          </a>
+          <!---End of Single Recipes-->
+        </div>
+        <!---end of Recipes lists-->        
+
+      </section>
+
+      <!--- End of Recipes Container-->
+    </main>
+
+    <!----- End of Maing-->
+
+    <!----- Footer -->
+    
+    <footer class="page-footer">
+      <p>&copy; <span id="date">2021</span>
+      <span class="footer-logo">SimplyRecipe</span>
+      Built by <a href="https://github.com/robinglory">Robin Glory</a>
+      </p>
+    </footer>
+
+    <!----  End of Foooter-->
+
+    <script src="app.js"></script>
+  </body>
+</html>
